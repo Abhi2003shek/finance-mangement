@@ -203,13 +203,13 @@ const Dashboard = () => {
                         className="rounded-md px-4 py-px  text-green-900 antialiased"
                         onClick={() => handleEdit(expense.id)}
                       >
-                        <img src="https://www.shareicon.net/data/256x256/2015/10/24/136535_edit_256x256.png" className="h-8 w-8"/>
+                        <img src="https://www.shareicon.net/data/256x256/2015/10/24/136535_edit_256x256.png" className="h-8 w-8" alt="logo"/>
                       </button>
                       <button
                         className="rounded-md px-4 py-px  text-red-900 antialiased"
                         onClick={() => handleDelete(expense.id)}
                       >
-                        <img src="https://cdn-icons-png.freepik.com/512/6861/6861362.png" className="h-8 w-8"/>
+                        <img src="https://cdn-icons-png.freepik.com/512/6861/6861362.png" className="h-8 w-8" alt="logo"/>
                       </button>
                     </td>
                   </tr>
@@ -223,13 +223,13 @@ const Dashboard = () => {
             className="px-4 py-2 focus:outline-none"
             onClick={handlePreviousPage}
             disabled={currentPage === 1}
-          ><img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" className="h-8 w-8"/> 
+          ><img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" className="h-8 w-8" alt="logo"/> 
           </button>
           <button
             className="px-4 py-2 focus:outline-none"
             onClick={handleNextPage}
             disabled={currentPage === Math.ceil(expenses.length / itemsPerPage)}
-          ><img src="https://cdn-icons-png.flaticon.com/512/32/32213.png" className="h-8 w-8"/>
+          ><img src="https://cdn-icons-png.flaticon.com/512/32/32213.png" className="h-8 w-8" alt="logo"/>
           </button>
         </div>
       </div>
