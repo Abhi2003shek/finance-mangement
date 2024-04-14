@@ -13,7 +13,6 @@ function SignUp() {
   const onHandleSignup = () => {
     if (email !== '' && password !== '') {
       if (password === repassword) {
-        // Assuming auth is properly initialized
         createUserWithEmailAndPassword(auth, email, password);
         console.log('User successfully created');
         navigate('/');
